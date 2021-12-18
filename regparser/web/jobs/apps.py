@@ -4,5 +4,5 @@ from django.apps import AppConfig
 
 
 class JobsConfig(AppConfig):
-    default_auto_field = 'django.db.models.AutoField'
-    name = 'jobs'
+    #default_auto_field = 'django.db.models.AutoField'
+    name = 'web.jobs'
