@@ -44,7 +44,7 @@ json-delta==2.0
 lxml==3.6.0
 mccabe==0.5.3             # via flake8
 mock==2.0.0
-networkx==1.11
+networkx==2.6
 pbr==3.0.0
 pep8-naming==0.4.1
 pexpect==4.2.1
