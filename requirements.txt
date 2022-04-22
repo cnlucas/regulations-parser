@@ -34,7 +34,7 @@ pickleshare==0.7.4        # via ipython
 prompt-toolkit==3.0.28	  # via ipython
 ptyprocess==0.6.0.        # via pexpect
 pygments==2.7.4           # via ipython
-pyparsing==2.2.4
+pyparsing==2.2.1
 pytz==2021.3             # via django
 redis==3.2.0 			  # via rq
 requests-cache==0.6.3
