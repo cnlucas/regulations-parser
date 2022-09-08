@@ -58,7 +58,7 @@ class GrammarCommonTests(TestCase):
 
     def _decode(self, txt):
         """Convert from HTML entities"""
-        return html().unescape(txt)
+        return html.unescape(txt)
 
     def test_whitespace(self):
         """Verify that various types of whitespace are ignored"""

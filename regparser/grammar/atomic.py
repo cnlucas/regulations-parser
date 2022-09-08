@@ -11,7 +11,7 @@ from regparser.grammar.utils import Marker, SuffixMarker, WordBoundaries
 # Set whitespace for all parsing; include unicode whitespace chars
 ParserElement.setDefaultWhitespaceChars(
     string.whitespace +
-    html().unescape('&ensp;&emsp;&thinsp;&zwnj;&zwj;&lrm;&rlm;'))
+    html.unescape('&ensp;&emsp;&thinsp;&zwnj;&zwj;&lrm;&rlm;'))
 
 
 lower_p = (

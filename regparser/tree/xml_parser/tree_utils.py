@@ -148,5 +148,5 @@ def get_node_text_tags_preserved(xml_node):
     node_text = xml_node.text or ''
     node_text += ''.join(etree.tounicode(child) for child in xml_node)
 
-    node_text = html().unescape(node_text)
+    node_text = html.unescape(node_text)
     return node_text
